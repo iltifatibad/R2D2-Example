@@ -1,7 +1,7 @@
 use actix_web::{web, App, HttpServer, HttpResponse};
 use r2d2::Pool;
-use r2d2_sqlite::SqliteConnectionManager;  // r2d2 için sqlite bağlantı yöneticisi
-use rusqlite::{params, Connection}; // rusqlite için gerekli importlar
+use r2d2_sqlite::SqliteConnectionManager;
+use rusqlite::{params, Connection};
 use std::env;
 use dotenv::dotenv;
 
